@@ -1,0 +1,15 @@
+@media screen and (min-width: 32.5em) {
+
+    .header-img {
+        height: 200px;
+    }
+
+    .title-name {
+        font-size: 40px;
+    }
+
+    h2 {
+        text-align: left;
+    }
+    
+}

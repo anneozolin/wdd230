@@ -1,0 +1,47 @@
+header, footer{
+    background-color: teal;
+    color: white;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+header, main, footer {
+    margin: 1.25rem auto;
+    max-width: 750px;
+    font-family: 'Alice', serif;
+    padding: 1rem;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.header-img {
+    height: 150px;
+    box-shadow: 5px 5px 5px #a9a9a9;
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.title-name {
+    grid-column: 1/4;
+    grid-row: 1;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+}
