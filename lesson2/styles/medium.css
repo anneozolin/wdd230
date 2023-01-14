@@ -1,0 +1,32 @@
+@media only screen and (min-width: 37.5em) {
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    body {
+        font-size: 20px;
+    }
+
+    .screenshot {
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .design-name {
+        font-size: 25px;
+    }
+
+    .alura {
+        grid-column: span 2;
+        margin-top: 2rem;
+    }
+}
