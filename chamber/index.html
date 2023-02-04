@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Point of Jordan Fields | Home</title>
     <meta name="description" content="This page will contain my site planning document Home Page.">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
     <link href="styles/normalize.css" rel="stylesheet">
     <link href="styles/small.css" rel="stylesheet">
     <link href="styles/medium.css" rel="stylesheet">
@@ -15,12 +16,14 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.png" class="logo"
+        <a id="logo_link" href="index.html">
+            <img src="images/logo.png" class="logo"
                 alt="This is the image of the website's icon. 
                 It shows a circle with mountains and it says Point of Jordan Fields.">
+        </a>
         <div class="title">
-            <h1>Point of Jordan Fields</h1>
-            <h2>Chamber of Commerce</h2>
+                <h1>Point of Jordan Fields</h1>
+                <h2>Chamber of Commerce</h2>
         </div>
         <div class="social">
             <a href="https://facebook.com" target="_blank">
@@ -30,39 +33,94 @@
                 <img src="images/instagram.png" alt="instagram icon">
             </a>
         </div>
-        <div id="date" class="date">Date</div>
+        <div class="header2">
+            <div id="date" class="date">Date</div>
+            <h3 id="message">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h3>
+            <nav>
+                <button id="hamburger-button"><span>&#9776;</span><span>x</span></button>
+                <ul id="primary-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Page 2</a></li>
+                    <li><a href="">Page 3</a></li>
+                    <li><a href="">Page 4</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <nav>
-        <button id="hamburger-button"><span>&#9776;</span><span>x</span></button>
-        <ul id="primary-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="">Page 2</a></li>
-            <li><a href="">Page 3</a></li>
-            <li><a href="">Page 4</a></li>
-        </ul>
-    </nav>
+
     <main>
-        <section class="hero">hero image and call to action</section>
-        <section class="news">news</section>
-        <section class="events">events</section>
-        <section class="weather">weather</section>
-        <section class="join">join</section>
-        <section class="spotlight1">spotlight 1</section>
-        <section class="spotlight2">spotlight 2</section>
-        <section class="spotlight3">spotlight 3</section>
+        <section class="hero">
+            <img class="hero-img" src="images/hero-img.jpg" alt="Image of hills in Campos do Jordão city">
+            <div class="hero-title">
+                <h3>Welcome to</h3>
+                <h2>Campos do Jordao</h2>
+            </div>
+            <button class="hero-button">Join the Chamber</button>
+            <div class="hero-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tristique lobortis nunc at viverra. Nam et eleifend lectus, vitae pulvinar felis. Aliquam congue bibendum diam. Sed lectus justo, vehicula sit amet congue in, placerat nec risus. Phasellus sollicitudin velit sapien, id luctus ante tempus vel. Vivamus a nunc a lorem rhoncus convallis. Quisque id dui at leo finibus dapibus et nec tortor. Aenean ultricies, est bibendum sodales consequat, arcu ipsum ultrices massa, vitae consectetur libero justo eget felis. Integer bibendum ultricies lectus, sit amet pulvinar neque aliquet nec. Nunc sed purus eleifend diam suscipit sollicitudin. Etiam mi nisl, tincidunt non sem cursus, pulvinar vulputate tortor. Duis accumsan felis nec erat mollis maximus.</p>
+            </div>
+        </section>
+        <section class="news">
+            <h2>News</h2>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tristique lobortis nunc at viverra.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tristique lobortis nunc at viverra. Nam et </li>
+            </ul>
+        </section>
+        <section class="events">
+            <h2>Events</h2>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tristique lobortis nunc at viverra.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tristique lobortis nunc at viverra. Nam et </li>
+            </ul>
+        </section>
+        <section class="weather">
+            <h2>Weather</h2>
+            <div class="weather-icon">
+                <img src="images/weather-icon.png">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tristique lobortis nunc at viverra. </p>
+            </div>
+        </section>
+        <section class="join">
+            <h2>Join</h2>
+            <p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tristique lobortis nunc at viverra. </p>
+            <button class="join-button">Join Us</button>
+        </section>
+        <section class="spotlight1">spotlight 1
+            <div class="img-placeholder">Img Placeholder</div>
+        </section>
+        <section class="spotlight2">spotlight 2
+            <div class="img-placeholder">Img Placeholder</div>
+        </section>
+        <section class="spotlight3">spotlight 3
+            <div class="img-placeholder">Img Placeholder</div>
+        </section>
     </main>
     <footer>
-        <img src="images/footer-logo.png" class="footer-logo"
+        <img src="images/logo.png" class="footer-logo"
                 alt="This is the image of the website's icon. 
                 It shows a circle with mountains and it says Point of Jordan Fields.">
-        <section class="footer-content">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58877.94879500004!2d-45.62115005727702!3d-22.733005935589134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc89cbf10d10bf%3A0x42ed1a032c8ae78f!2sCampos%20do%20Jord%C3%A3o%2C%20SP%2C%2012460-000!5e0!3m2!1spt-BR!2sbr!4v1675543165847!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        <div class="contact">
+            <h3>Contact Information</h3>
+            <p><span>&#10147;</span> Campos do João | São Paulo | Brazil | 12460-000</p>
+            <p><span>&#9743;</span> (11) 95555-5555</p>
+            <p><span>&#9993;</span> contact@pointjordanfields.com</p>
+        </div>
+            
+        <div class="base-footer">
             <div id="signature">
-                &copy; <span id="current-year"></span> | | Anelisa Ozolin | Sao Paulo | Brazil| <a target="blank" href="https://www.byui.edu/online"> BYUI Online Learning</a>
+                &copy; <span id="current-year"></span> Point of Jordan Fields  |  Anelisa Ozolin  |  WDD 230 Project
             </div>
             <div id="lastupdated">
                 Last Updated: <span id="last-modified"> Date and time</span>
             </div>
-        </section>
+        </div>
+
     </footer>
 <script defer src="scripts/script.js"></script>
 </body>

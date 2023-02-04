@@ -25,6 +25,18 @@
         grid-column: 1 / 3;
     }
 
+    .hero-img {
+        max-width: 950px;
+    }
+
+    .hero-title h3 {
+        font-size: 1.5rem;
+    }
+    
+    .hero-title h2 {
+        font-size: 2rem;
+    }
+    
     .news {
         grid-column: 1 / 3;
     }
@@ -34,7 +46,7 @@
     }
 
     .spotlight3 {
-        grid-column: 1 / 3;
+        display: none;
     }
 
  }
