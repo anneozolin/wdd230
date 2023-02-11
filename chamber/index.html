@@ -17,7 +17,7 @@
 <body>
     <header>
         <a id="logo_link" href="index.html">
-            <img src="images/logo.png" class="logo"
+            <img src="images/logo.webp" class="logo"
                 alt="This is the image of the website's icon. 
                 It shows a circle with mountains and it says Point of Jordan Fields.">
         </a>
@@ -50,7 +50,13 @@
 
     <main>
         <section class="hero">
-            <img class="hero-img" src="images/hero-img.jpg" alt="Image of hills in Campos do Jordão city">
+            <figure>
+                <img class="hero-img" src="images/hero-img.jpg" alt="Image of hills in Campos do Jordão city" sizes="95vw"
+                     srcset="images/hero-img-200.jpg 200w,
+                             images/hero-img-500.jpg 500w,
+                             images/hero-img-800.jpg 800w
+                            ">
+            </figure>
             <div class="hero-title">
                 <h3>Welcome to</h3>
                 <h2>Campos do Jordao</h2>
@@ -80,7 +86,35 @@
             <h2>Weather</h2>
             <div class="weather-icon">
                 <img src="images/weather-icon.png">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tristique lobortis nunc at viverra. </p>
+                <table>
+                    <thead>
+                      <tr>
+                        <th colspan="2">Weather Summary</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Currently:</td>
+                        <td>Sunny</td>
+                      </tr>
+                      <tr>
+                        <td>High:</td>
+                        <td><span id="temp">44</span>&deg;F</td>
+                      </tr>
+                      <tr>
+                        <td>Wind Chill:</td>
+                        <td><span id="windchill">N/A</span></td>
+                      </tr>
+                      <tr>
+                        <td>Humidity:</td>
+                        <td>82%</td>
+                      </tr>
+                      <tr>
+                        <td>Wind Speed:</td>
+                        <td><span id="windspeed">12</span>mph</td>
+                      </tr>
+                    </tbody>
+                  </table>
             </div>
         </section>
         <section class="join">
@@ -88,14 +122,38 @@
             <p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tristique lobortis nunc at viverra. </p>
             <button class="join-button">Join Us</button>
         </section>
-        <section class="spotlight1">spotlight 1
-            <div class="img-placeholder">Img Placeholder</div>
+        <section class="spotlight1">
+            <h2>spotlight 1</h2>
+            <figure>
+                <img src="images/spotlight1.jpg" alt="Image of a womand and a child in a fair" sizes="95vw"
+                     srcset="images/spotlight1-200.jpg 200w,
+                             images/spotlight1-500.jpg 500w,
+                             images/spotlight1-800.jpg 800w
+                            ">
+            </figure>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tristique lobortis nunc at viverra. </p>
         </section>
-        <section class="spotlight2">spotlight 2
-            <div class="img-placeholder">Img Placeholder</div>
+        <section class="spotlight2">
+            <h2>spotlight 2</h2>
+            <figure>
+                <img src="images/spotlight2.jpg" alt="Image of a old womand" sizes="95vw"
+                     srcset="images/spotlight2-200.jpg 200w,
+                             images/spotlight2-500.jpg 500w,
+                             images/spotlight2-800.jpg 800w
+                            ">
+            </figure>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tristique lobortis nunc at viverra. </p>
         </section>
-        <section class="spotlight3">spotlight 3
-            <div class="img-placeholder">Img Placeholder</div>
+        <section class="spotlight3">
+            <h2>spotlight 3</h2>
+            <figure>
+                <img src="images/spotlight3.jpg" alt="Image of a restaurant" sizes="95vw"
+                     srcset="images/spotlight3-200.jpg 200w,
+                             images/spotlight3-500.jpg 500w,
+                             images/spotlight3-800.jpg 800w
+                            ">
+            </figure>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tristique lobortis nunc at viverra. </p>
         </section>
     </main>
     <footer>
@@ -123,5 +181,6 @@
 
     </footer>
 <script defer src="scripts/script.js"></script>
+<script defer src="scripts/windchill.js"></script>
 </body>
 </html>

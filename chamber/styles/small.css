@@ -108,7 +108,6 @@ section {
     display: block;
     margin: 10px auto;
     border: 1px solid #593E37;
-    padding: 100px;
     background-color: #BEB089;
     color: #593E37;
     margin: 1rem;
@@ -152,14 +151,14 @@ section {
     color: #593E37;
     font-weight: bold;
     border-radius: 10px;
-    padding: 1rem;
+    padding: 0.5rem;
     box-shadow: #593E37 0.1em 0.1em 0.3em;
     border: #593E37;
 }
 
 .hero-button:hover, .join-button:hover {
-    background-color: #BEB089;
-    color: #593E37;
+    background-color: #748535;
+    color: #BEB089;
     transform: scale(1.2);
     transition: all 0.3s ease-in;
 }
@@ -178,6 +177,10 @@ section {
     position: relative;
 }
 
+.weather img {
+    float: right;
+}
+
 .events {
     padding: 1rem;
     position: relative;
@@ -191,22 +194,23 @@ section {
 .spotlight1, .spotlight2 {
     position: relative;
     padding: 1rem;
-    padding-bottom: 8rem;
 }
 
-.img-placeholder {
-    position: absolute;
-    height: 60%;
+.spotlight1 img {
+    width: 100%;
+    float: right;
+    margin: 0.5rem;
+}
+
+.spotlight2 img{
+    float: left;
     width: 80%;
-    top: 3rem;
-    border: #593E37 solid;
-    background-color: #B0BD6B;
+    margin-right: 1rem;
 }
 
 .spotlight3 {
     display: none;
 }
-
 
 footer {
     color: #593E37;
@@ -218,10 +222,9 @@ footer {
 
 .footer-logo {
     grid-row: 2;
-    height: 80px;
+    height: 50px;
     padding: 1rem;
-    margin: 1rem;
-
+    margin-top: 1rem;
 }
 
 .map {
@@ -248,3 +251,5 @@ footer {
     text-align: center;
     line-height: 1.5;
 }
+
+

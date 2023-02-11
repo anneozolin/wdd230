@@ -1,4 +1,4 @@
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 30rem) {
 
     nav ul#primary-nav {
         display: flex;
@@ -49,5 +49,11 @@
         display: none;
     }
 
+    .footer-logo {
+        height: 80px;
+        padding: 1rem;
+        margin: 1rem;
+    
+    }
  }
 

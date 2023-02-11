@@ -70,10 +70,21 @@
     }
 
     .spotlight3 {
-        display: flex;
+        display: block;
         grid-column: 3;
         grid-row: 3;
         position: relative;
         padding: 1rem;
     }
+
+    .spotlight3 img {
+        width: 100%;
+        float: left;
+        margin: 0.5rem;
+    }
+
+    .footer-logo {
+        height: 100px;
+    }
+
 }

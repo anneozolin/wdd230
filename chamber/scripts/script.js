@@ -39,8 +39,9 @@ let fulldate = dayName + "," + " " + d.getDate() + " " + monthName + " " + year;
 document.getElementById('date').textContent = fulldate;
 
 const weekDay = date.getDay();
+//const weekDay = 1
 
-if (weekDay == 1 && weekDay == 2){
+if (weekDay === 1 || weekDay === 2){
     document.querySelector("#message").style.display = "block";
     }
 else {
