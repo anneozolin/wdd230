@@ -1,22 +1,40 @@
+let date = new Date();
+
+let currentYear = date.getFullYear();
+document.querySelector('#current-year').textContent = currentYear;
+
+let lastModified = document.lastModified;
+document.getElementById('last-modified').textContent = lastModified;
+
 // initialize display elements
-const todayDisplay = document.querySelector("#today");
 const visitsDisplay = document.querySelector("#visits");
-const daysLeftOutput = document.querySelector("#daysleft");
 
-// get the stored value in localStorage
-let numVisits = Number(window.localStorage.getItem("visits-ls")); // Using the Number() function ensures that if the storage item does not exist, it will be converted into a zero (0) which helps on the if block condition.
+function displayDaysSinceLastVisit() {
+	// Retrieve the last visit time from local storage
+	const lastVisit = localStorage.getItem('lastVisit');
+	
+	// Get the current time in milliseconds
+	const currentTime = new Date().getTime();
+	
+	if (lastVisit) {
+	  // Calculate the number of milliseconds since the last visit
+	  const timeSinceLastVisit = currentTime - lastVisit;
+	  
+	  // Calculate the number of days since the last visit
+	  const daysSinceLastVisit = Math.round(timeSinceLastVisit / (1000 * 60 * 60 * 24));
+	  
+	  // Store the current visit time in local storage
+	  localStorage.setItem('lastVisit', currentTime);
+	  
+	  // Display the number of days since the last visit
+	  visitsDisplay.textContent = `Days since last visit: ${daysSinceLastVisit}`;
+	} else {
+	  // Store the current visit time in local storage
+	  localStorage.setItem('lastVisit', currentTime);
+	  
+	  // Display message for first-time visitors
+	  visitsDisplay.textContent = "This is your first visit!";
+	}
+  }
 
-// determine if this is the first visit or display the number of visits.
-if (numVisits !== 0) {
-	visitsDisplay.textContent = numVisits;
-} else {
-	visitsDisplay.textContent = `This is your first visit!`;
-}
-
-// increment the number of visits.
-numVisits++;
-// store the new number of visits value
-localStorage.setItem("visits-ls", numVisits);
-// show todays date demonstration
-todayDisplay.textContent = Date.now();
-//84600000 equals the number of miliseconds in one day.
+  displayDaysSinceLastVisit()

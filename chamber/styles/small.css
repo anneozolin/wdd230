@@ -2,7 +2,6 @@ header, footer{
     color: #593E37;
     display: grid;
     grid-template-columns: 20% 1fr 10%;
-    grid-template-rows: 2;
     padding: 1rem;
 }
 
@@ -223,7 +222,6 @@ footer {
     padding: 1rem;
     display: grid;
     grid-template-columns: 20% 1fr;
-    grid-template-rows: 3;
 }
 
 .footer-logo {
@@ -298,6 +296,8 @@ img[data-src] {
 }
 
 .source {
+    border: 1px solid #593E37;
+    background-color: #BEB089;
     padding: 1rem;
     text-align: center;
     margin-top: 2rem;
