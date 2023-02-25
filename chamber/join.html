@@ -43,6 +43,54 @@
             </nav>
         </div>
     </header>
+
+    <main>
+        <form method="get" action="thankyou.html">
+            <h1>Membership Application Form</h1>
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top">Last Name*<input type="text" name="lname" required></label>
+                <label class="top">Business Position Title<input type="text" name="position-title" pattern="[a-zA-Z\s\-]{7,}"></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="youremail@domain.com" required></label>
+                <label class="top">Phone*<input type="tel" name="phone" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Business Information</legend>
+                <label class="top">Business Name*<input type="text" name="business-name" required></label>
+                <div class="membership-level" >Membership Level</div>
+                <label class="sbs"><input type="radio" name="membership-level" value="np"> NP Membershipis for non profit organizations and there is no fee</label>
+                <label class="sbs"><input type="radio" name="membership-level" value="bronze"> Bronze Membership</label>
+                <label class="sbs"><input type="radio" name="membership-level" value="silver"> Silver Membership</label>
+                <label class="sbs"><input type="radio" name="membership-level" value="gold"> Gold Membership</label>
+                <div class="membership-benefits">
+                    <h3>Membership Benefits</h3>
+                    <ul>
+                      <li>NP Membership: No fee and limited benefits.</li>
+                      <li>Bronze Membership: Access to trainings and discounts on events.</li>
+                      <li>Silver Membership: All Bronze benefits, plus advertising opportunities.</li>
+                      <li>Gold Membership: All Silver benefits, plus priority advertising on the home page.</li>
+                    </ul>
+                </div>
+                <label class="top">Business Description<textarea rows="5" class="input" name="business-name"></textarea></label>
+            </fieldset>
+            <p class="last-loaded"><span class="label">Date and Time that the form was loaded: </span><span id="last-loaded"></span></p>
+            
+            <input type="submit" value="Send my application" class="submitBtn">
+
+        </form>
+
+        <div class="membership-benefits">
+            <h3>Membership Benefits</h3>
+            <ul>
+              <li>NP Membership: No fee and limited benefits.</li>
+              <li>Bronze Membership: Access to trainings and discounts on events.</li>
+              <li>Silver Membership: All Bronze benefits, plus advertising opportunities.</li>
+              <li>Gold Membership: All Silver benefits, plus priority advertising on the home page.</li>
+            </ul>
+        </div>
+        
+    </main>
     
     <footer>
         <img src="images/logo.png" class="footer-logo"
@@ -68,8 +116,7 @@
 
     </footer>
 
-<script defer src="scripts/lazyload.js"></script>
-
+<script defer src="scripts/join.js"></script>
 
 </body>
 </html>

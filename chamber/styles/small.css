@@ -306,3 +306,85 @@ img[data-src] {
 .source a {
     color: #748535;
 }
+
+.thanks {
+    text-align: center;
+}
+
+/* ------------------------- FORM ----------------------- */
+
+.last-loaded {
+    display: none;
+}
+
+form h1 {
+    text-align: center;
+    padding: .5rem;
+}
+
+form fieldset {
+    margin: 2rem .5rem;
+    border: 1px solid #593E37;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #593E37;
+    margin: 0 1rem;
+    padding: 0.5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1.5rem;
+}
+
+form label.top input {
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #593E37;
+    border-radius: 5px;
+    padding: .75rem;
+    color: #593E37;
+    width: 90%;
+    max-width: 20rem;
+    margin-top: 0.35rem;
+}
+
+form label.top textarea {
+    display: block;
+    border: 1px solid #593E37;
+    border-radius: 5px;
+    color: #593E37;
+    width: 95%;
+    max-width: 20rem;
+    padding: .75rem;
+    margin-top: 0.35rem;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #593E37;
+}
+
+form .membership-benefits {
+    display: none;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #BEB089;
+    color: #593E37;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 95%;
+    max-width: 20rem;
+}
+
+form input.submitBtn:hover {
+    background-color: #B0BD6B;
+    color: #593E37;
+}

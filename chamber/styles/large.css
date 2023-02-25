@@ -87,4 +87,11 @@
         height: 100px;
     }
 
+    form {
+        grid-column: 1/3;
+    }
+
+    .membership-benefits {
+        grid-column: 3/4;
+    }
 }
