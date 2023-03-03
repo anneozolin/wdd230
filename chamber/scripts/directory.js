@@ -41,7 +41,7 @@ const displayGrid = (members) => {
         phone.textContent = `${business.phone}`;
         website.textContent = `${business.website}`;
         website.classList.add("not-list");
-        membership.textContent = `${business.member-level} Membership`;
+        membership.textContent = `${business.membership} Membership`;
         membership.classList.add("not-list");
     
         // Append the section(card) with the created elements
