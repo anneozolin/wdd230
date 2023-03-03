@@ -1,24 +1,24 @@
 
 
 // define source and view-switch boolean
-const source = 'json/data.json';
+const source = 'https://anneozolin.github.io/wdd230/chamber/json/data.json';
 let listDisplay = false;
 
 // pull json data
 async function getBusinessData() {
     const response = await fetch(source);
     const data = await response.json();
-    displayGrid(data.businesses);
+    displayGrid(data.members);
 }
 
 // run function
 getBusinessData();
 
 // define grid display
-const displayGrid = (businesses) => {
-    const cards = document.querySelector('#businesses'); // select the output container element
+const displayGrid = (members) => {
+    const cards = document.querySelector('div.businesses'); // select the output container element
 
-    businesses.forEach((business) => {
+    members.forEach((business) => {
         // Create elements to add to the div.cards element
         let card = document.createElement("section");
         let logo = document.createElement("img");
