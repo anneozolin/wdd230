@@ -1,5 +1,4 @@
 
-
 // define source and view-switch boolean
 const source = 'https://anneozolin.github.io/wdd230/chamber/json/data.json';
 let listDisplay = false;
@@ -42,7 +41,7 @@ const displayGrid = (members) => {
         phone.textContent = `${business.phone}`;
         website.textContent = `${business.website}`;
         website.classList.add("not-list");
-        membership.textContent = `${business.membership} Membership`;
+        membership.textContent = `${business.member-level} Membership`;
         membership.classList.add("not-list");
     
         // Append the section(card) with the created elements
