@@ -1,0 +1,76 @@
+{
+    "members" : [
+        {
+            "name" : "Cacerola Restaurante",
+            "address" : "R. Dep. Claro César, 15 , Vila Telma, Campos do Jordão"  ,
+            "phone" : "55 (12) 99725-5318" ,
+            "website" : "https://www.netcampos.com/empresas/cacerola-restaurante.html",
+            "icon" : "images/directory-img1.jpg",
+            "member-level" : 1
+        },
+        {
+            "name" : "Pousada La Toscana",
+            "address" : "Av. Francisco Romeiro, 270, Vila Capivari, Campos do Jordão"  ,
+            "phone" : "55 (12)3663-6650" ,
+            "website" : "https://www.netcampos.com/empresas/pousada-la-toscana.html",
+            "icon" : "images/directory-img2.jpg",
+            "member-level" : 1
+        },
+        {
+            "name" : "Pousada Victoria Villa",
+            "address" : "Rua Escolástica M. da Fonseca, 358, Vila Capivari, Campos do Jordão"  ,
+            "phone" : "55 (12)3663-1633" ,
+            "website" : "https://www.netcampos.com/empresas/pousada-victoria-villa-portalnetcampos-campos-do-jordao.html",
+            "icon" : "images/directory-img3.jpg",
+            "member-level" : 1
+        },
+        {
+            "name" : "Pousada Campos dos Holandeses",
+            "address" : "Rua Orivaldo Albino Rodrigues 595, Vila Inglesa, Campos do Jordão"  ,
+            "phone" : "55 (12)3663-6579" ,
+            "website" : "https://www.netcampos.com/empresas/pousada-campos-dos-holandeses.html",
+            "icon" : "images/directory-img4.jpg",
+            "member-level" : 1
+        },
+        {
+            "name" : "Café da Nega",
+            "address" : "Av frei Orestes Girardi 1109 box 10, Vila Abernéssia, Campos do Jordão"  ,
+            "phone" : "55 (12)3664-2611" ,
+            "website" : "https://www.netcampos.com/empresas/5101-cafe-da-nega.html",
+            "icon" : "images/directory-img5.jpg",
+            "member-level" : 4
+        },
+        {
+            "name" : "Cacau Show",
+            "address" : "Avenida Frei Orestes Girardi , 3257, Vila Jaguaribe, Campos do Jordão"  ,
+            "phone" : "55 (12)3664-5552" ,
+            "website" : "https://www.netcampos.com/empresas/cacau-show.html",
+            "icon" : "images/directory-img6.jpg",
+            "member-level" : 2
+        },
+        {
+            "name" : "Casa do Pão de Queijo",
+            "address" : "Avenida Frei Orestes Girardi, 971, Vila Abernéssia, Campos do Jordão"  ,
+            "phone" : "55 (12)3662-3480" ,
+            "website" : "https://www.netcampos.com/empresas/5058-casa-do-pao-de-queijo.html",
+            "icon" : "images/directory-img7.jpg",
+            "member-level" : 3
+        },
+        {
+            "name" : "Fabrica de Chocolates Araucaria",
+            "address" : "Rua Amadeu Carlet Junior, 255, Vila Jaguaribe, Campos do Jordão"  ,
+            "phone" : "55 (12)3668-9581" ,
+            "website" : "https://www.netcampos.com/empresas/4971-fabrica-de-chocolates-araucaria.html",
+            "icon" : "images/directory-img8.jpg",
+            "member-level" : 3
+        },
+        {
+            "name" : "Frans Café",
+            "address" : "Av. Macedo Soares, 340 -Shop Cadij /loja 01, Vila Capivari, Campos do Jordão"  ,
+            "phone" : "55 (12)3663-7151" ,
+            "website" : "https://www.netcampos.com/empresas/219-frans-cafe.html",
+            "icon" : "images/directory-img9.jpg",
+            "member-level" : 2
+        }
+    ]
+}
