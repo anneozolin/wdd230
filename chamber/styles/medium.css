@@ -1,4 +1,4 @@
-@media only screen and (min-width: 30rem) {
+@media only screen and (min-width: 42.5em) {
 
     .logo {
         height: 80px;
@@ -23,6 +23,7 @@
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
     }
 
     .hero {
@@ -90,5 +91,19 @@
         line-height: 2rem;
     }
 
+    .view-options {
+        grid-column: 1/3;
+        
+    }
+
+    .businesses {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .list-view {
+        display: flex;
+        grid-column: 1/3;
+    }
  }
 

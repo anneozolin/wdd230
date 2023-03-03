@@ -94,4 +94,18 @@
     .membership-benefits {
         grid-column: 3/4;
     }
+
+    .view-options {
+        grid-column: 1/4;
+        
+    }
+
+    .businesses {
+        max-width: 1000px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .list-view {
+        grid-column: 1/4;
+    }
 }
