@@ -63,19 +63,11 @@
                 <label class="sbs"><input type="radio" name="membership-level" value="bronze"> Bronze Membership</label>
                 <label class="sbs"><input type="radio" name="membership-level" value="silver"> Silver Membership</label>
                 <label class="sbs"><input type="radio" name="membership-level" value="gold"> Gold Membership</label>
-                <div class="membership-benefits">
-                    <h3>Membership Benefits</h3>
-                    <ul>
-                      <li>NP Membership: No fee and limited benefits.</li>
-                      <li>Bronze Membership: Access to trainings and discounts on events.</li>
-                      <li>Silver Membership: All Bronze benefits, plus advertising opportunities.</li>
-                      <li>Gold Membership: All Silver benefits, plus priority advertising on the home page.</li>
-                    </ul>
-                </div>
+                
                 <label class="top">Business Description<textarea rows="5" class="input" name="business-name"></textarea></label>
             </fieldset>
-            <p class="last-loaded"><span class="label">Date and Time that the form was loaded: </span><span id="last-loaded"></span></p>
-            
+            <!--<p class="last-loaded"><span class="label">Date and Time that the form was loaded: </span><span id="last-loaded"></span></p>-->
+            <input type="hidden" id="last-loaded" name="time-now" value="">
             <input type="submit" value="Send my application" class="submitBtn">
 
         </form>
@@ -117,6 +109,7 @@
     </footer>
 
 <script defer src="scripts/join.js"></script>
+<script defer src="scripts/toggleMenu.js"></script>
 
 </body>
 </html>

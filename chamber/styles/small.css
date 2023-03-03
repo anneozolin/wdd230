@@ -313,10 +313,6 @@ img[data-src] {
 
 /* ------------------------- FORM ----------------------- */
 
-.last-loaded {
-    display: none;
-}
-
 form h1 {
     text-align: center;
     padding: .5rem;
@@ -369,9 +365,6 @@ form label.sbs {
     color: #593E37;
 }
 
-.membership-benefits {
-    display: none;
-}
 
 form input.submitBtn {
     border: none;
