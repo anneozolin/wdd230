@@ -101,8 +101,7 @@
     }
 
     .businesses {
-        max-width: 1000px;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 33% 33% 33%;
     }
 
     .list-view {
