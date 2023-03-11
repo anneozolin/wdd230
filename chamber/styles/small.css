@@ -172,11 +172,32 @@ section {
 .weather {
     padding: 1rem;
     position: relative;
+    text-align: center;
+    padding-left: 2rem;
 }
 
-.weather img {
-    float: right;
+#weather-div {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	text-align: center;
 }
+
+#weather-icon {
+    display: flex;
+    height: 100%;
+}
+
+.weather h4 {
+	font-size: 2em;
+}
+
+.weather-type {
+	font-size: 1.5rem;
+    background-color: #B0BD6B;
+    border: #593E37 1px solid;
+    padding: 0.5rem;
+}
+
 
 .events {
     padding: 1rem;
