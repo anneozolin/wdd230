@@ -62,7 +62,7 @@
             "phone" : "55 (12)3668-9581" ,
             "website" : "https://www.netcampos.com/empresas/4971-fabrica-de-chocolates-araucaria.html",
             "image" : "images/directory-img8.jpg",
-            "membership" : "Silver"
+            "membership" : "Gold"
         },
         {
             "name" : "Frans Café",
@@ -70,7 +70,7 @@
             "phone" : "55 (12)3663-7151" ,
             "website" : "https://www.netcampos.com/empresas/219-frans-cafe.html",
             "image" : "images/directory-img9.jpg",
-            "membership" : "Bronze"
+            "membership" : "Gold"
         }
     ]
 }
