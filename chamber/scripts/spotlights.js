@@ -1,6 +1,6 @@
 // define source
-const source1 = 'https://raw.githubusercontent.com/anneozolin/wdd230/main/chamber/json/data.json';
-const source = 'json/data.json';
+const source = 'https://raw.githubusercontent.com/anneozolin/wdd230/main/chamber/json/data.json';
+const source1 = 'json/data.json';
 
 // pull json data
 async function getBusinessData() {
