@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Anelisa Ozolin">
+    <meta name="description" content="Chamber of Commerce Home Page | Anelisa Ozolin | WDD 230 BYU-Idaho">
     <title>Point of Jordan Fields | Home</title>
-    <meta name="description" content="This page will contain my site planning document Home Page.">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link href="styles/normalize.css" rel="stylesheet">
     <link href="styles/small.css" rel="stylesheet">
     <link href="styles/medium.css" rel="stylesheet">
@@ -15,6 +16,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div>
+        <h3 id="message" class="message">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h3>
+    </div>
     <header>
         <a id="logo_link" href="index.html">
             <img src="images/logo.webp" class="logo"
@@ -35,7 +39,6 @@
         </div>
         <div class="header2">
             <div id="date" class="date">Date</div>
-            <h3 id="message">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h3>
             <nav>
                 <button id="hamburger-button"><span>&#9776;</span><span>x</span></button>
                 <ul id="primary-nav">
@@ -54,8 +57,9 @@
                 <img src="images/hero-img.jpg" alt="Image of hills in Campos do Jordão city"
                      srcset="images/hero-img-200.jpg 200w,
                              images/hero-img-500.jpg 500w,
-                             images/hero-img-800.jpg 800w
-                            ">
+                             images/hero-img-800.jpg 800w"
+                             sizes="(min-width: 1420px) 1420px, 100vw"
+                             >
             </figure>
             <div class="hero-title">
                 <h3>Welcome to</h3>
@@ -85,7 +89,7 @@
         <section class="weather">
             <h3>Weather</h3>
             <div id="weather-div">
-                <img src="" alt="" id="weather-icon"/>
+                <img src="https://openweathermap.org/img/w/04n.png" alt="broken clouds" id="weather-icon">
                 <h4><span class="temperature"></span>&#8451;</h4>
             </div>
             <p class="weather-type"></p>
@@ -103,8 +107,9 @@
                 <img src="images/spotlight1.jpg" alt="Image of a womand and a child in a fair"
                      srcset="images/spotlight1-200.jpg 200w,
                              images/spotlight1-500.jpg 500w,
-                             images/spotlight1-800.jpg 800w
-                            ">
+                             images/spotlight1-800.jpg 800w"
+                             sizes="(min-width: 1420px) 1420px, 100vw"
+                            >
             </figure>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tristique lobortis nunc at viverra. </p>
         </section>
@@ -114,8 +119,8 @@
                 <img src="images/spotlight2.jpg" alt="Image of a old womand"
                      srcset="images/spotlight2-200.jpg 200w,
                              images/spotlight2-500.jpg 500w,
-                             images/spotlight2-800.jpg 800w
-                            ">
+                             images/spotlight2-800.jpg 800w"
+                             sizes="(min-width: 1420px) 1420px, 100vw">
             </figure>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tristique lobortis nunc at viverra. </p>
         </section>
@@ -125,8 +130,9 @@
                 <img src="images/spotlight3.jpg" alt="Image of a restaurant"
                      srcset="images/spotlight3-200.jpg 200w,
                              images/spotlight3-500.jpg 500w,
-                             images/spotlight3-800.jpg 800w
-                            ">
+                             images/spotlight3-800.jpg 800w"
+                             sizes="(min-width: 1420px) 1420px, 100vw"
+                            >
             </figure>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tristique lobortis nunc at viverra. </p>
         </section>
@@ -136,7 +142,7 @@
                 alt="This is the image of the website's icon. 
                 It shows a circle with mountains and it says Point of Jordan Fields.">
 
-        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58877.94879500004!2d-45.62115005727702!3d-22.733005935589134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc89cbf10d10bf%3A0x42ed1a032c8ae78f!2sCampos%20do%20Jord%C3%A3o%2C%20SP%2C%2012460-000!5e0!3m2!1spt-BR!2sbr!4v1675543165847!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58877.94879500004!2d-45.62115005727702!3d-22.733005935589134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc89cbf10d10bf%3A0x42ed1a032c8ae78f!2sCampos%20do%20Jord%C3%A3o%2C%20SP%2C%2012460-000!5e0!3m2!1spt-BR!2sbr!4v1675543165847!5m2!1spt-BR!2sbr"></iframe>
         
         <div class="contact">
             <h3>Contact Information</h3>
@@ -157,7 +163,7 @@
     </footer>
 <script defer src="scripts/script.js"></script>
 <script defer src="scripts/weatherapi.js"></script>
-<script defer src="scripts/toggleMenu.js"></script>
+<script defer src="scripts/togglemenu.js"></script>
 
 </body>
 </html>
