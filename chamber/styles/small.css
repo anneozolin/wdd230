@@ -149,6 +149,7 @@ section {
 
 .hero-button, .join-button {
     position: absolute;
+    text-decoration: none;
     z-index: 1;
     right: 1.5rem;
     bottom: 1rem;
@@ -217,37 +218,22 @@ section {
     position: relative;
 }
 
+.spotlights {
+    background-color: #B0BD6B;
+}
+
 .spotlights div {
     padding: 1rem;
     border: #593E37 solid 1px;
     margin: 1rem;
     word-wrap: break-word;
+    text-align: center;
+    background-color: #BEB089;
 }
 
-/*
-
-.spotlight1, .spotlight2 {
-    position: relative;
-    padding: 1rem;
-}
-
-.spotlight1 img {
-    width: 100%;
-    float: right;
-    margin: 0.5rem;
-}
-
-.spotlight2 img{
-    float: right;
-    width: 60%;
-    margin-right: 1rem;
-}
-
-.spotlight3 {
+#third-spotlight {
     display: none;
 }
-
-*/
 
 figure {
     display: block;
