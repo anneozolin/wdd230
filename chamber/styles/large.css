@@ -77,10 +77,20 @@
         padding: 1rem;
     }
 
-    .spotlight3 img {
-        width: 100%;
-        float: left;
-        margin: 0.5rem;
+    .spotlights {
+        grid-column: 3/4;
+        grid-row-start: 2;
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .spotlights h3 {
+        width: 80%;
+        margin: 20px 15px;
+    }
+
+    #third-spotlight {
+        display: block;
     }
 
     .footer-logo {

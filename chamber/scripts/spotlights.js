@@ -1,11 +1,12 @@
 // define source
-const source = 'json/data.json';
+const source = 'https://raw.githubusercontent.com/anneozolin/wdd230/main/chamber/json/data.json';
+const source1 = 'json/data.json';
 
 // pull json data
 async function getBusinessData() {
     const response = await fetch(source);
     const data = await response.json();
-    buildSpotlights(data.businesses);
+    buildSpotlights(data.members);
 }
 
 // run function
