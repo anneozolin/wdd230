@@ -343,7 +343,7 @@ img[data-src] {
 
 /* ------------------------- FORM ----------------------- */
 
-form h1 {
+form h2 {
     text-align: center;
     padding: .5rem;
 }
@@ -488,3 +488,15 @@ form input.submitBtn:hover {
 .list-view .not-list {
 	display: none;
 }
+
+.visit-us {
+    padding: 1rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.visit-us .map {
+    width: 200px;
+    margin-top: 2rem;
+}
+

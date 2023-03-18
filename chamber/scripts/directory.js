@@ -1,6 +1,6 @@
 
 // define source and view-switch boolean
-const source = 'https://anneozolin.github.io/wdd230/chamber/json/data.json';
+const source = 'json/data.json';
 let listDisplay = false;
 
 // pull json data
