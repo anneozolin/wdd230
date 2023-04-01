@@ -1,0 +1,10 @@
+@media only screen and (min-width: 64rem) { 
+
+    .logo {
+        height: 150px;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+}

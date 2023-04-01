@@ -1,0 +1,205 @@
+/*Colors
+#A3BA48
+#D6EBC4
+#F296A1
+#F66260
+#8D0008*/
+
+body{
+    color: #8D0008;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    color: #8D0008;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    padding: .5rem;
+    background-color: #D6EBC4;
+    justify-items: center;
+}
+
+.logo {
+    height: 80px;
+    grid-column: 1;
+}
+
+header, h1, h2 {
+    font-family: 'Beth Ellen', cursive;
+}
+
+.title {
+    grid-column: 2;
+    text-align: center;
+}
+
+header, nav, main, footer {
+    margin: 0 auto;
+}
+
+nav {
+    display: block;
+    background-color: #A3BA48;
+    text-align: center;
+    box-shadow: 0 5px 15px gray;
+    font-size: 15px;
+    padding: 0.3rem;
+}
+
+nav button {
+    margin: 0.2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #8D0008;
+}
+
+#hamburger-button span:nth-child(1) { display: block;}
+#hamburger-button span:nth-child(2) { display: none;}
+
+#hamburger-button.open span:nth-child(1) { display: none;}
+#hamburger-button.open span:nth-child(2) { display: block;}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+nav ul li a {
+    display: block;
+    color: #8D0008;
+    text-align: center;
+    padding: 0.80rem 2vw;
+    text-decoration: none;
+    font-size: 1rem;
+    border-top: 1px solid rgb(0, 0, 0, 0.3);
+}
+
+nav a:hover {
+    background-color: #8D0008;
+    color: #D6EBC4;
+}
+
+main {
+    display: block;
+    line-height: 1.5;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+figure {
+    margin: 0;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.hero-title {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-weight: bold;
+    word-break: normal;
+    text-align: center;
+    color: #D6EBC4;
+    text-shadow: black 0.1em 0.1em 0.3em;
+}
+
+.hero-title h2 {
+    font-size: 1.3rem;
+    margin-top: 0;
+}
+
+.hero-title h3 {
+    font-size: .8rem;
+}
+
+section {
+    background-color: #D6EBC4;
+    border-radius: 20px;
+    margin: 2rem 0.5rem;
+    box-shadow: 0 5px 15px gray;
+    padding: 1rem;
+    border: #A3BA48 solid 1px;
+    text-align: center;
+}
+
+.hero-content h3 {
+    font-size: 1.2rem;
+}
+
+.fruit-drink img {
+    width: 80%;
+    border-radius: 15px;
+}
+
+.drink-button {
+    text-decoration: none;
+    background-color: #A3BA48;
+    color: #8D0008;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 0.8rem;
+    box-shadow: gray 0.1em 0.1em 0.3em;
+    border: #8D0008;
+}
+
+.fruit-drink {
+    padding-bottom: 2rem;
+}
+
+.drink-button:hover {
+    background-color: #8D0008;
+    color: #D6EBC4;
+    transition: all 0.3s ease-in;
+}
+
+footer{
+    color: #8D0008;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    padding: 1rem;
+    background-color: #D6EBC4;
+    justify-items: center;
+    text-align: center;
+}
+
+.logo {
+    grid-column: 1;
+}
+
+.contact {
+    grid-column: 2/3;
+    margin-bottom: 1rem;
+}
+
+.contact img {
+    margin: 0 1rem;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+.base-footer {
+    grid-column: 1/4;
+    margin: 0.5rem 0 1rem 0;
+    padding-top: 2rem;
+}
+
+img[data-src] {
+    filter: blur(3px);
+}
