@@ -7,4 +7,13 @@
     .title {
         font-size: 1.5rem;
     }
+
+    .hero img {
+        width: 95%;
+    }
+
+    .hero-title {
+        top: 1.5rem;
+        left: 3rem;
+    }
 }

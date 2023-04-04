@@ -203,3 +203,74 @@ a:-webkit-any-link {
 img[data-src] {
     filter: blur(3px);
 }
+
+/* Fresh Page*/
+
+form h2 {
+    text-align: center;
+    padding: .5rem;
+}
+
+form fieldset {
+    margin: 2rem .5rem;
+    border: 1px solid #8D0008;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #8D0008;
+    margin: 0 1rem;
+    padding: 0.5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1.5rem;
+}
+
+form label.top input {
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #8D0008;
+    border-radius: 5px;
+    padding: .75rem;
+    color: #8D0008;
+    width: 90%;
+    max-width: 20rem;
+    margin-top: 0.35rem;
+}
+
+form label.top textarea {
+    display: block;
+    border: 1px solid #8D0008;
+    border-radius: 5px;
+    color: #8D0008;
+    width: 95%;
+    max-width: 20rem;
+    padding: .75rem;
+    margin-top: 0.35rem;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #8D0008;
+}
+
+
+form input.submitBtn {
+    border: none;
+    background-color: #A3BA48;
+    color: #8D0008;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 95%;
+    max-width: 20rem;
+}
+
+form input.submitBtn:hover {
+    background-color: #8D0008;
+    color: #D6EBC4;
+}
