@@ -274,3 +274,10 @@ form input.submitBtn:hover {
     background-color: #8D0008;
     color: #D6EBC4;
 }
+
+.output {
+    margin: 2rem .5rem;
+    border: 1px solid #8D0008;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
