@@ -1,5 +1,6 @@
 const fruitDataUrl = "https://brotherblazzard.github.io/canvas-content/fruit.json";
 
+let submissionCount = Number(localStorage.getItem('drinkCount')) || 0;
 
 fetch(fruitDataUrl)
   .then(response => response.json())
@@ -56,4 +57,8 @@ fetch(fruitDataUrl)
         <p><strong>Calories:</strong> ${totalCalories}kcal</p>
       `;
     });
+
+    submissionCount = submissionCount + 1;
+    localStorage.setItem('drinkCount', submissionCount);
+
 })

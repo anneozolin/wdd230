@@ -54,6 +54,23 @@
         margin-left: 20%;
     }
 
+    .main-fresh {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
 
+    .output {
+        grid-row: 2/3;
+    }
+
+    .fresh-img img {
+        display: block;
+        max-width: 500px;
+        width: 90%;
+        grid-column: 2 / 3;
+        box-shadow: 0 5px 15px gray;
+        margin: 8rem 2rem;
+        border-radius: 20px;
+    }
  }
 

@@ -37,10 +37,10 @@
         </ul>
     </nav>
 
-    <main>
+    <main class="home-page">
         <div class="hero">
             <figure>
-                <img src='images/discover-placeholder.jpg' data-src="images/hero-img.jpg" alt="Wicker basket with fresh strawberry">
+                <img src='images/placeholder-hero.jpg' data-src="images/hero-img.jpg" alt="Wicker basket with fresh strawberry">
             </figure>
             <div class="hero-title">
                 <h2>Fresh, Local, and Organic</h2>
@@ -65,24 +65,38 @@
             <p>By using organic fruits, our drinks and smoothies are free from harmful pesticides and chemicals that can have negative impacts on health and the environment. 
                 Additionally, many of these drinks and smoothies are made to order, which ensures that customers receive a high-quality product that meets their specific preferences.</p>
             </div>
-            <a href="fresh.html" class="drink-button">Make your own fruit drink mix!</a>
+            <a href="fresh.html" class="fresh-button">Make your own fruit drink mix!</a>
         </section>
 
         <section class="weather">
-            <h2>Weather</h2>
-            <div id="weather-div">
-                <img src="https://openweathermap.org/img/w/04n.png" alt="broken clouds" id="weather-icon">
-                <h4><span class="temperature"></span>&#8451;</h4>
+            <div id="weather">
+                <h2>Weather</h2>
+                <figure>
+                  <img src="" alt="" id="weather-icon">
+                  <figcaption></figcaption>
+                </figure>
+                
+                <p>Temperature: <span id="temp"></span>&deg;F</p>
+        
+                <p>Humidity: <span id="humidity"></span></p>
+              </div>
+              <br>
+              <hr>
+              <br>
+              <h3>Next three days</h3>
+              <p>Day 1:<span id="dayOfWeek"></span> <span id="nextTemp"></span>&deg;F</p>
+              <p>Day 2:<span id="dayOfWeek"></span> <span id="nextTemp2"></span>&deg;F</p>
+              <p>Day 3:<span id="dayOfWeek"></span> <span id="nextTemp3"></span>&deg;F</p>
+              <div class="cards">
             </div>
-            <p class="weather-type"></p>
-            <p>Wind Speed: <span class="wind-speed"></span> km/h</p>
-            <p>Wind Chill: <span class="wind-chill"></span></p>
+            <img src='images/discover-placeholder.jpg' data-src="images/weather-img.jpg" alt="Top view of delicious detox drinks" class="weather-img">
         </section>
 
         <section class="drinks-submitted">
-            <h2>Drinks Submitted</h2>
-            <p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tristique lobortis nunc at viverra. </p>
+            <h4>Specialty Drinks Submitted</h4>
+            <p>You have submitted <span id="specialtyDrinksCount"></span> specialty drinks!</p>
         </section>
+        <img src='images/discover-placeholder.jpg' data-src="images/botton-img.jpg" alt="Top view of delicious detox drinks" class="botton-img">
     </main>
 
     <footer>
@@ -114,6 +128,9 @@
             <div id="signature">
                 &copy; <span id="current-year"></span> Bountiful Foods  |  Anelisa Ozolin  |  WDD 230 Project
             </div>
+            <div id="lastupdated">
+                Last Updated: <span id="last-modified"> Date and time</span>
+            </div>
         </div>
 
     </footer>
@@ -121,6 +138,9 @@
 <script defer src="scripts/togglemenu.js"></script>
 <script defer src="scripts/currentyear.js"></script>
 <script defer src="scripts/lazyload.js"></script>
+<script defer src="scripts/weather.js"></script>
+<script defer src="scripts/drinkssubmitted.js"></script>
+<script defer src="scripts/lastmodified.js"></script>
 
 </body>
 </html>

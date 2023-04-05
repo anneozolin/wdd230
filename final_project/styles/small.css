@@ -146,7 +146,7 @@ section {
     border-radius: 15px;
 }
 
-.drink-button {
+.drink-button, .fresh-button {
     text-decoration: none;
     background-color: #A3BA48;
     color: #8D0008;
@@ -165,6 +165,17 @@ section {
     background-color: #8D0008;
     color: #D6EBC4;
     transition: all 0.3s ease-in;
+}
+
+.botton-img {
+    width: 100%;
+    border-radius: 15px;
+    margin: 1rem 0;
+    box-shadow: 0 5px 15px gray;
+}
+
+.weather .weather-img {
+    display: none;
 }
 
 footer{
@@ -280,4 +291,22 @@ form input.submitBtn:hover {
     border: 1px solid #8D0008;
     border-radius: 10px;
     padding: .5rem 2%;
+}
+
+.fresh-img img {
+    display: none;
+}
+
+.aboutus-main img {
+    width: 100%;
+    border-radius: 15px;
+    margin: 1rem 0;
+    box-shadow: 0 5px 15px gray;
+}
+
+.aboutus-main iframe {
+    width: 80%;
+    border-radius: 15px;
+    margin: 1rem 0;
+    box-shadow: 0 5px 15px gray;
 }

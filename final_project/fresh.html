@@ -37,7 +37,7 @@
         </ul>
     </nav>
 
-    <main>
+    <main class="main-fresh">
         <form action="get" action="#" id="drink-form">
             <fieldset>
                 <legend>Personal Information</legend>
@@ -67,6 +67,10 @@
             <input type="submit" value="Mix The Fruits" class="submitBtn" id="submit-button">
         </form>
         <div id="output" class="output"></div>
+
+        <div class="fresh-img">
+            <img src='images/placeholder-fresh.jpg' data-src="images/fresh-img.jpg" alt="Top view of delicious detox drinks">
+        </div>
     </main>
 
     <footer>
@@ -98,6 +102,9 @@
             <div id="signature">
                 &copy; <span id="current-year"></span> Bountiful Foods  |  Anelisa Ozolin  |  WDD 230 Project
             </div>
+            <div id="lastupdated">
+                Last Updated: <span id="last-modified"> Date and time</span>
+            </div>
         </div>
 
     </footer>
@@ -105,6 +112,7 @@
 <script defer src="scripts/togglemenu.js"></script>
 <script defer src="scripts/currentyear.js"></script>
 <script defer src="scripts/fruits.js"></script>
+<script defer src="scripts/lazyload.js"></script>
 
 </body>
 </html>
